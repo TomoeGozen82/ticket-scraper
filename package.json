@@ -1,0 +1,23 @@
+{
+  "name": "ticket-scraper",
+  "version": "1.0.0",
+  "description": "Fetches available tickets from **VividSeats** and **SeatGeek** event pages, displaying them grouped by **section → row → price**.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "php -S 127.0.0.1:8080 -t public/",
+    "serve:all": "php -S 0.0.0.0:8080 -t public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camoufox": "^0.1.19",
+    "playwright": "^1.60.0",
+    "puppeteer": "^25.0.4",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "rebrowser-patches": "^1.0.19"
+  }
+}

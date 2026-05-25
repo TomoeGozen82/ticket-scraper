@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules/
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / cache outputs (not currently used, but common)
+/dist/
+/build/
+/.cache/
+/.parcel-cache/
+/coverage/
+
+# PHP tooling caches (safe to ignore if created)
+/.phpunit.cache/
+.phpunit.result.cache
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
